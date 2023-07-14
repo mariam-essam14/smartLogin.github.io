@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    background-color: #24353f;
+   
+   
+}
+
+.login{
+    width: 65%;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    background-color: #24353f;
+}
+.login h1 ,.word {
+    color: #17a2b8;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.form-control{
+background-color: transparent;
+}
+.form-control:focus{
+    box-shadow: none;
+    background-color: transparent;
+}
+.btn-outline-info{
+    transition: all 0s;
+}
+.btn-outline-info:hover{
+    color:white;
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s;
+}
+a:hover{
+    text-decoration: underline;
+}
+#valid2,#valid3,#valid4,#valid1,#valid{
+    display: none;
+}
+.navbar {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);;
+}
